@@ -1,0 +1,73 @@
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    margin:0;
+    font-family: itim;
+    background:#cec2eb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.page1 {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+button {
+    margin: 2rem;
+    padding: .5rem;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0px 5px rgba(0,0,0,0.2);
+    background: #e66a86;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.page2 {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.page3 {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+h1 {
+    color: #e66a86;
+}
+
+/* Mobile */
+@media (min-width:300px) and (max-width:999px){
+    .container{
+    width: 300px;
+    }
+}
+
+/* Desktop */
+@media (min-width:1000px){
+    .container{
+    width:600px;
+    }
+}
